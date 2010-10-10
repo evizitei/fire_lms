@@ -1,6 +1,6 @@
 HOST = 'localhost'
 
-CHANGECONST::Application.configure do
+Fire_lms::Application.configure do
   config.cache_classes               = false
   config.whiny_nils                  = true
   config.consider_all_requests_local = true

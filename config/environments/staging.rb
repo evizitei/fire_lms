@@ -1,6 +1,6 @@
-HOST = 'staging.CHANGEME.com'
+HOST = 'staging.fire_lms.com'
 
-CHANGECONST::Application.configure do
+Fire_lms::Application.configure do
   config.cache_classes               = true
   config.consider_all_requests_local = false
 
