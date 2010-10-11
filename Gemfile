@@ -10,10 +10,13 @@ gem "hoptoad_notifier",  "2.2.0"
 gem "RedCloth",          "4.2.3", :require => "redcloth"
 gem "paperclip",         "2.3.3"
 gem "will_paginate",     "3.0.pre2"
+gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem "formtastic", :git => "git://github.com/justinfrench/formtastic.git", :branch => "rails3"
 
-gem "pg", "0.8.0"
+group :production do
+  gem "pg", "0.8.0"
+end
 
 # http://blog.davidchelimsky.net/2010/07/11/rspec-rails-2-generators-and-rake-tasks/
 group :development, :test do
